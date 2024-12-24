@@ -18,7 +18,7 @@ const MicrositePreview = () => {
 
   const handleGenerateMicrosite = () => {
     setLoading(true);
-    const nextUrl = "";
+    const nextUrl = "https://microsite-smoky.vercel.app/";
     // Simulate microsite generation
     setTimeout(() => {
       navigate(`${nextUrl}/microsite/${micrositeData.storeName}`);
